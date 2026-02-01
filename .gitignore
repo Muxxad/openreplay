@@ -1,0 +1,51 @@
+# .gitignore for GStreamer Instant Replay Project
+
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Compiled binaries
+instant-replay
+instant-replay.exe
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Makefile
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+/tmp/
+*.tmp
+*.log
+
+# GStreamer debug outputs
+*.dot
+gst-debug*.log
+
+# Test outputs
+test.h264
+test.mp4
+output*.mp4
+output*.h264
+replay-buffer*
+/tmp/replay-*
+/tmp/gst-buffer-*
+
+# OS specific
+Thumbs.db
+.directory
